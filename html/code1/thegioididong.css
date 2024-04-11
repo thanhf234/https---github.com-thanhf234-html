@@ -1,0 +1,627 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.bottom1 {
+    border: 2px solid rgb(249, 247, 247);
+    height: 47px;
+    display: inline-block;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+a {
+color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+.mm{
+    display: none;
+}
+.phuk:hover>.mm{
+    display: flex;
+}
+.lev {
+    z-index: 7;
+    position: absolute;
+    top: 140px;
+    flex-wrap: wrap;
+    left: 29%;
+    width: 700px;
+    height: 400px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.lev div {
+    display: inline-block;
+    margin: 10px;
+}
+.lev div ul {
+    font-size: 17px;
+
+}
+.lev div ul li {
+    padding: 5px;
+}
+.jj .p{
+    border-radius: 5px;
+    position: absolute;
+    z-index: 9;
+    background-color: aliceblue;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    top: 25%;
+}
+.jj div p
+{
+    width: 150px;
+
+padding: 6px 5px;
+}
+.m1{
+    display: none;
+}
+.jj:hover>.m1{
+    display: block;
+}
+.kkj .m2{
+    border-radius: 5px;
+    position: absolute;
+    z-index: 9;
+    background-color: aliceblue;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    top: 25%;
+}
+.kkj .m2 p{
+    width: 150px;
+
+padding: 6px 5px
+}
+.mm2{
+    display: none;
+}
+.kkj:hover>.mm2{
+    display: block;
+}
+.mm3{
+    display: none;
+}
+.mej:hover>.mm3{
+    display: block;
+}
+.mej .m3{
+    border-radius: 5px;
+    position: absolute;
+    z-index: 9;
+    background-color: aliceblue;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    top: 23%;
+    left: 50%;
+    width: 600px;
+}
+.m3{
+}
+.mej div {
+}
+.mej .m3 ul {
+    font-size: 17px;
+
+}
+.mej div ul li {
+    padding: 5px;
+}
+.lazy {
+    border: 2px solid black;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.lazyloaded {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.content .bottom {
+    padding: 0px 41px;
+    background-color: gold;
+    height: 155px;
+    display: block;
+}
+.cotenr{
+    padding: 0px 31px;
+    height: 155px;
+}
+.owl-lazy {
+    position: relative;
+}
+.mn1{
+    background-color: #fed101;
+}
+.ll .top {
+    background-color: #fed101;
+
+    padding: 0px 23px;
+}
+
+.m {
+    color: brown;
+}
+
+.bb {
+    background-color: rgb(233, 236, 236);
+}
+
+.ee {
+    display: flex;
+    gap: 15px;
+}
+
+.rt {
+    display: flex;
+    margin: 0 15px;
+
+}
+
+.rt div {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 288px;
+    height: 100px;
+    margin: 20px 10px;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.arrow1 {
+    position: absolute;
+    border: 17px solid transparent;
+    width: 0px;
+    height: 0px;
+    border-left-color: rgb(108, 106, 106);
+    right: 2%;
+    top: 6px;
+}
+
+.arrow2 {
+
+    position: absolute;
+    border: 17px solid transparent;
+    width: 0px;
+    height: 0px;
+    border-right-color: rgb(108, 106, 106);
+    top: 6px;
+
+
+}
+
+.arrow1:hover {
+    position: absolute;
+    border: 17px solid transparent;
+    width: 0px;
+    height: 0px;
+    border-left-color: aliceblue;
+    right: 2%;
+    top: 6px;
+
+
+}
+
+.arrow2:hover {
+    position: absolute;
+    border: 17px solid transparent;
+    width: 0px;
+    height: 0px;
+    border-right-color: aliceblue;
+    top: 6px;
+
+}
+
+.thegioididong {
+    font-size: 40px;
+    position: relative;
+}
+
+.com {
+    position: absolute;
+    left: 228px;
+    top: 86px;
+}
+
+.tooltip {
+    display: flex;
+    gap: 15px;
+    height: 50px;
+    margin: 6px;
+}
+
+.tip1,
+.tip2,
+.tip3,
+.tip4 {
+    border: 2px solid transparent;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.tooltip1 .tip1 {
+    position: relative;
+    width: 130px;
+    height: 38px;
+    background-color: rgba(255, 172, 10, .6);
+    z-index: 2;
+}
+
+.arrow3 {
+    z-index: 5;
+    position: absolute;
+    border: 6px solid transparent;
+    border-top-color: black;
+    left: 403px;
+    top: 70px;
+}
+
+.oo {
+    position: relative;
+}
+
+.arrow0 {
+    position: absolute;
+    z-index: 5;
+    border: 6px solid transparent;
+    border-top-color: black;
+    left: 447px;
+    top: 20%;
+}
+
+.arrow01 {
+    position: absolute;
+    z-index: 5;
+    border: 6px solid transparent;
+    border-top-color: black;
+    left: 840px;
+    top: 20%;
+}
+
+.arrow02 {
+    position: absolute;
+    z-index: 5;
+    border: 6px solid transparent;
+    border-top-color: black;
+    left: 965px;
+    top: 20%;
+}
+
+.arrow03 {
+    position: absolute;
+    z-index: 5;
+    border: 6px solid transparent;
+    border-top-color: black;
+    left: 1220px;
+    top: 20%;
+}
+.arrow05 {
+    position: absolute;
+    z-index: 5;
+    border: 10px solid transparent;
+    border-bottom-color:aliceblue;
+    top: -7%;
+    left: 3%;
+}
+.arrow06 {
+    z-index: 5;
+    border: 10px solid transparent;
+    border-bottom-color:aliceblue;
+    top: 22%;
+    left: 66%;
+
+    position: absolute;
+   }
+   .arrow07 {
+    z-index: 5;
+    border: 10px solid transparent;
+    border-bottom-color:aliceblue;
+    top: 22%;
+    left: 76%;
+
+    position: absolute;
+   } 
+   .arrow08 {
+    z-index: 5;
+    border: 10px solid transparent;
+    border-bottom-color:aliceblue;
+    top: 20%;
+
+    position: absolute;
+   } 
+.tip2 {
+    position: relative;
+    width: 312px;
+    height: 38px;
+}
+
+#timkiem {
+    position: absolute;
+    top: 65px;
+    left: 722px;
+}
+
+.tip3 {
+    width: 100px;
+    height: 38px;
+    background-color: rgba(255, 172, 10, .6);
+}
+
+.tip4 {
+    position: relative;
+    width: 100px;
+    height: 38px;
+    background-color: rgba(255, 172, 10, .6);
+}
+
+.t5 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 38px;
+    gap: 20px;
+}
+
+.t5 p {
+    border-right: 2px solid #ffe56c;
+}
+
+#giohang {
+    position: absolute;
+    top: 65px;
+    left: 952px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.d {
+    display: flex;
+    font-size: 16px;
+    gap: 5px;
+}
+
+
+.mx {
+    bottom: 19px;
+    z-index: 5;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: rgb(238, 238, 238);
+    right: 12px;
+}
+
+.mt {
+    bottom: 19px;
+    left: 18px;
+    z-index: 5;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: rgb(238, 238, 238);
+}
+
+.topy {
+    z-index: 2px;
+    display: flex;
+    position: absolute;
+    top: 500px;
+    gap: 10px;
+    left: 25px;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top div {
+    background-color: rgb(233, 236, 236);
+    width: 177px;
+    border: 1px solid black;
+    height: 300px;
+    margin: 6px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.anhto{
+    margin: 0px 0px 0px -33px;
+}
+.lieuhai{
+    display: none;
+}
+.hove:hover>.lieuhai{
+    display: block;
+}
+.lieuhaiw{
+    position: fixed;
+    left: -62px;
+    top: 30%;
+
+}
+.lieuhaiq{
+    position: fixed;
+    right: -62px;
+    top: 30%;
+}
+.tap{
+    background-color: #fff;
+    display: inline-block;
+    width: 400px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    height: 379px;
+  
+}
+.thegd{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #0068ff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 75px;
+}
+.thegd h1{
+    color: aliceblue;
+}
+.logoq{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.chotruyen{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.chatq{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #e4e8ec;
+    color: black;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.chatw{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #0068ff;
+    color: aliceblue;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.tien{
+    display: flex;
+    border-top: 1px solid slategray;
+    align-content: center;
+    justify-content: center;
+    height: 100px;
+    gap: 20px;
+
+}
+.tien .pq {
+    background-color: #edf5ff;
+    padding: 12px;
+    margin: 26px 0 34px 70px;
+    color: #0068ff;;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.tien .pw {
+    padding: 12px;
+    margin: 26px 0 34px 2px;
+}
+.chex{
+    display: none;
+}
+.noi{
+    position: fixed;
+    right: 20px;
+    bottom: 35px;
+}
+.dua{
+    padding: 1rem;
+    max-height: 190px;
+    overflow-y: auto;
+}
+.dua p{
+    margin: 15px;
+}
+.zalo{
+    border-radius:40% ;
+    -webkit-border-radius:40% ;
+    -moz-border-radius:40% ;
+    -ms-border-radius:40% ;
+    -o-border-radius:40% ;
+}
+.tap{
+    display: none;
+    position: fixed;
+    right: 30px;
+    bottom: 125px;
+
+}
+input:checked+.tap{
+display: block;
+}
