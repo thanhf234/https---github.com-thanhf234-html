@@ -321,7 +321,6 @@ li {
 
 .arrow0 {
     position: absolute;
-    z-index: 5;
     border: 6px solid transparent;
     border-top-color: black;
     left: 447px;
@@ -330,7 +329,6 @@ li {
 
 .arrow01 {
     position: absolute;
-    z-index: 5;
     border: 6px solid transparent;
     border-top-color: black;
     left: 840px;
@@ -339,7 +337,6 @@ li {
 
 .arrow02 {
     position: absolute;
-    z-index: 5;
     border: 6px solid transparent;
     border-top-color: black;
     left: 965px;
@@ -348,7 +345,6 @@ li {
 
 .arrow03 {
     position: absolute;
-    z-index: 5;
     border: 6px solid transparent;
     border-top-color: black;
     left: 1220px;
@@ -357,7 +353,6 @@ li {
 
 .arrow05 {
     position: absolute;
-    z-index: 5;
     border: 10px solid transparent;
     border-bottom-color: aliceblue;
     top: -7%;
@@ -365,7 +360,6 @@ li {
 }
 
 .arrow06 {
-    z-index: 5;
     border: 10px solid transparent;
     border-bottom-color: aliceblue;
     top: 22%;
@@ -375,7 +369,6 @@ li {
 }
 
 .arrow07 {
-    z-index: 5;
     border: 10px solid transparent;
     border-bottom-color: aliceblue;
     top: 22%;
@@ -385,7 +378,6 @@ li {
 }
 
 .arrow08 {
-    z-index: 5;
     border: 10px solid transparent;
     border-bottom-color: aliceblue;
     top: 20%;
@@ -695,6 +687,7 @@ li {
 }
 
 .tap {
+    z-index: 3;
     display: none;
     position: fixed;
     right: 30px;
