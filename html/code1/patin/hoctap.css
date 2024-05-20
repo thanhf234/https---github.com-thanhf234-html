@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenr{
+    display: inline-block;
+}
+li {
+    list-style: none;
+}
+.zalo {
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+.noi {
+    position: fixed;
+    right: 20px;
+    bottom: 35px;
+    z-index: 3;
+}
+
+
+.top {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:rgb(222, 160, 138);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.t {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.top footer {
+    background-color: #fff;
+    width: 177px;
+    border: 1px solid black;
+    height: 368px;
+    margin: 6px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.xemthem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.xemthem p {
+    border: 1px solid #e0e0e0;
+    color: #333;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 340px;
+    height: 48px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.co p {
+    display: flex;
+    width: 130px;
+    justify-content: center;
+    background-color: #ffe56c;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.tapqq {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+.topwa>li {
+    display: inline-block;
+}
+
+.logo {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+h1 {
+    color: coral;
+}
+h2 {
+    color: red;
+}
+h4 {
+    color: aliceblue;
+}
+strong{
+    color: black;
+}
+span {
+    transform: rotate(180deg);
+    color: #8a8686;
+    padding: 10px 6px 5px 0;
+    font-size: 15px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+}
+
+a:hover {
+    color: red;
+}
+
+li:hover {
+    border: 2px solid slategray;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.topq a,
+.topw li a {
+    display: flex;
+    align-items: center;
+}
+
+.topz {
+    justify-content: center;
+    gap: 160px;
+    display: flex;
+    background-color: black;
+    height: 70px;
+    padding: 10px;
+
+}
+
+.topq {
+    border: 2px solid aqua;
+}
+
+.topwa .i {
+    background-color: rgb(46, 45, 45);
+    display: none;
+    position: absolute;
+
+    width: 424PX;
+}
+
+
+.topwa .i ul {
+    display: inline-block;
+    padding: 20px;
+
+
+
+}
+
+.topwa {
+    width: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.topwz {
+    display: flex;
+}
+
+.topwa li {
+    position: relative;
+    margin: 0 15px 0 0px;
+}
+
+.topwa li:hover>.i {
+    display: block;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    z-index: 5;
+}
+.hinhnen{
+    width:1263px ;
+     height:717px;
+     background-image: url(html/codepati/img/nhompati.jpg);
+     padding: 45px;
+     font-size: 25px;
+     background-size:cover ;
+}
+.hinhnen div{
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.hinhnen div p{
+    margin: 13px;
+
+
+}
+.transbox{
+    font-size:25px;
+    padding:20px;
+    background-color:#ddd;
+    opacity:0.7;
+  }
