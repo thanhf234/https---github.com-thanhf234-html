@@ -107,6 +107,9 @@ h1 {
 h2 {
     color: red;
 }
+h3{
+    font-size: 15px;
+}
 h4 {
     color: aliceblue;
 }
@@ -208,7 +211,8 @@ li:hover {
 .hinhnen{
     width:1263px ;
      height:717px;
-     background-image: url(html/codepati/img/nhompati.jpg);
+     background-image: url(h.jpg
+     );
      padding: 45px;
      font-size: 25px;
      background-size:cover ;
@@ -232,3 +236,64 @@ li:hover {
     background-color:#ddd;
     opacity:0.7;
   }
+  .tap {
+    background-color: #766e6e;
+    z-index: 3;
+    display: none;
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    width: 400px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    height: 159px;
+}
+.chex {
+    display: none;
+}
+
+.thegd {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: slategray;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 75px;
+}
+.tapq .gach {
+    text-decoration: line-through;
+}
+strong {
+    color: #0068ff;
+}
+.ls:hover {
+    margin-top: 16px;
+}
+.ls {
+    margin-top: 20px;
+    min-width: 100%;
+}
+.dua {
+    padding: 1rem;
+    max-height: 190px;
+    overflow-y: auto;
+}
+.chatq {
+    display: flex;
+    justify-content: center;
+    background-color: #e4e8ec;
+    color: black;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+  input:checked+.tap {
+    display: block;
+}
+
